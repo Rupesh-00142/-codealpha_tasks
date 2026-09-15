@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is artificial intelligence?",
+        "answer": "Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence."
+    },
+    {
+        "question": "What is machine learning?",
+        "answer": "Machine learning is a branch of artificial intelligence where computers learn patterns from data and use those patterns to make predictions or decisions."
+    },
+    {
+        "question": "What is Python?",
+        "answer": "Python is a high-level, general-purpose programming language known for its simple syntax and wide use in web development, automation, data science and artificial intelligence."
+    },
+    {
+        "question": "What is a chatbot?",
+        "answer": "A chatbot is a software application that communicates with users through text or voice and provides automated responses."
+    },
+    {
+        "question": "What is NLP?",
+        "answer": "Natural Language Processing (NLP) is a branch of artificial intelligence that enables computers to process, understand and generate human language."
+    },
+    {
+        "question": "What is deep learning?",
+        "answer": "Deep learning is a type of machine learning that uses artificial neural networks with multiple layers to learn complex patterns from data."
+    },
+    {
+        "question": "What is data science?",
+        "answer": "Data science is the field of extracting useful information and insights from structured and unstructured data using statistics, programming and machine learning."
+    },
+    {
+        "question": "What is Flask?",
+        "answer": "Flask is a lightweight Python web framework used to build web applications and APIs."
+    },
+    {
+        "question": "What is cosine similarity?",
+        "answer": "Cosine similarity is a mathematical technique used to measure how similar two text vectors are by calculating the cosine of the angle between them."
+    },
+    {
+        "question": "How does this chatbot work?",
+        "answer": "The chatbot preprocesses FAQ questions, converts them into TF-IDF vectors, compares the user's question with the FAQ vectors using cosine similarity and returns the answer with the highest similarity."
+    },
+    {
+        "question": "How can I learn artificial intelligence?",
+        "answer": "You can start by learning Python, mathematics, machine learning fundamentals, data preprocessing, neural networks and practical AI projects."
+    },
+    {
+        "question": "What programming language is used for this project?",
+        "answer": "This project uses Python for the chatbot backend, NLTK for text preprocessing, Scikit-learn for TF-IDF and cosine similarity, and Flask for the web application."
+    }
+]

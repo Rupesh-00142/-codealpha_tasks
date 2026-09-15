@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>FAQ AI Assistant</title>
+
+    <!-- IMPORTANT: Flask static path -->
+   <link
+    rel="stylesheet"
+    href="../static/style.css"
+    >
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ================= SIDEBAR ================= -->
+
+        <aside class="sidebar">
+
+            <div class="brand">
+
+                <div class="brand-icon">
+                    AI
+                </div>
+
+                <div>
+                    <h2>FAQ AI</h2>
+                    <span>Assistant</span>
+                </div>
+
+            </div>
+
+
+            <div class="sidebar-content">
+
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        ?
+                    </div>
+
+                    <div>
+                        <h3>FAQ Assistant</h3>
+
+                        <p>
+                            Ask questions from the
+                            available FAQ knowledge base.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="technology">
+
+                    <h3>Technology</h3>
+
+                    <div class="tech-item">
+                        <span>●</span>
+                        NLTK NLP
+                    </div>
+
+                    <div class="tech-item">
+                        <span>●</span>
+                        TF-IDF
+                    </div>
+
+                    <div class="tech-item">
+                        <span>●</span>
+                        Cosine Similarity
+                    </div>
+
+                    <div class="tech-item">
+                        <span>●</span>
+                        Flask
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="sidebar-footer">
+
+                <span class="online-dot"></span>
+
+                System Online
+
+            </div>
+
+        </aside>
+
+
+        <!-- ================= MAIN ================= -->
+
+        <main class="main">
+
+            <!-- HEADER -->
+
+            <header class="topbar">
+
+                <div>
+
+                    <h1>FAQ Chatbot</h1>
+
+                    <p>
+                        Intelligent question answering system
+                    </p>
+
+                </div>
+
+
+                <div class="connection">
+
+                    <span></span>
+
+                    Online
+
+                </div>
+
+            </header>
+
+
+            <!-- CHAT -->
+
+            <section
+                id="chat-box"
+                class="chat-box"
+            >
+
+                <!-- Welcome -->
+
+                <div class="message bot-message">
+
+                    <div class="avatar bot-avatar">
+                        AI
+                    </div>
+
+                    <div class="bubble">
+
+                        <div class="message-name">
+                            FAQ Assistant
+                        </div>
+
+                        <p>
+                            Hello! 👋
+                        </p>
+
+                        <p>
+                            I'm your FAQ assistant.
+                            Ask me a question and I'll
+                            find the most relevant answer
+                            from my knowledge base.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Suggestions -->
+
+                <div class="suggestions">
+
+                    <p>Try asking:</p>
+
+                    <button
+                        onclick="useSuggestion('What is artificial intelligence?')"
+                    >
+                        What is AI?
+                    </button>
+
+                    <button
+                        onclick="useSuggestion('What is machine learning?')"
+                    >
+                        What is machine learning?
+                    </button>
+
+                    <button
+                        onclick="useSuggestion('What is NLP?')"
+                    >
+                        What is NLP?
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- INPUT -->
+
+            <div class="input-wrapper">
+
+                <div class="input-box">
+
+                    <input
+                        type="text"
+                        id="question"
+                        placeholder="Ask your question..."
+                        autocomplete="off"
+                    >
+
+                    <button
+                        id="send-button"
+                        type="button"
+                    >
+
+                        <span id="send-text">
+                            Send
+                        </span>
+
+                        <span class="send-icon">
+                            ➤
+                        </span>
+
+                    </button>
+
+                </div>
+
+                <div class="input-hint">
+
+                    Press Enter to send
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOTER -->
+
+            <footer>
+
+                <span>
+                    NLP Powered
+                </span>
+
+                <span>•</span>
+
+                <span>
+                    TF-IDF Matching
+                </span>
+
+                <span>•</span>
+
+                <span>
+                    Cosine Similarity
+                </span>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- IMPORTANT: Flask static path -->
+    <script src="../static/script.js"></script>
+
+</body>
+
+</html>
